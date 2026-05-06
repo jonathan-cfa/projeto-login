@@ -45,6 +45,8 @@ section#login >div#imagem{
     height: 200px;
     background-size: cover;
     display: block;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 
 }
 
