@@ -79,23 +79,23 @@ div.campo > span{
 div.campo > input{
     background-color: #94cfcd;
     font-size: 1em;
-    width: calc(100% - 44px);
+    width: calc(100% - 40px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-14px);
+    /* transform: translateY(-14px); */
 }
 
 div.campo > input:focus-within{
     background-color: white;
-    border: none;
+    outline: none;
 }
 
 form > div.campo{
     background-color: #5f2c82;
     width: 100%;
-    display: block;
+    display: flex;
     height: 40px;
     border-radius: 8px;
     border: 2px solid #5f2c82;
